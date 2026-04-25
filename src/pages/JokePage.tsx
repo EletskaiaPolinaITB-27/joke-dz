@@ -14,8 +14,9 @@ export const JokePage = () => {
       } catch (e) {
         console.log(e);
       }
-    };
+    }
 
+    
     if (category) {
       getJoke();
     }
