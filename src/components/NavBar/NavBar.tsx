@@ -4,7 +4,7 @@ import List from '@mui/material/List';
 import { ListItem, ListItemButton } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
-import { axiosApi } from '../axiosApi';
+import { axiosApi } from '../../axiosApi';
 
 export const NavBar = () => {
   const [categories, setCategories] = useState<string[]>([]);
